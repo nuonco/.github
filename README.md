@@ -1,6 +1,14 @@
 <p align="center">
   <a href="https://www.nuon.co">
-    <img src="https://raw.githubusercontent.com/nuonco/nuonco/main/images/nuon_white.svg" width="318px" alt="Nuon logo" />
+    <picture>
+      <source
+        media="(prefers-color-scheme: dark)"
+        srcset="https://raw.githubusercontent.com/nuonco/nuonco/main/images/nuon_white.svg">
+      <img alt="nuon-light"
+           src="https://raw.githubusercontent.com/nuonco/nuonco/main/images/nuon_white.svg"
+           width="318px"
+           alt="Nuon logo" />
+    </picture>
   </a>
 </p>
 <h3 align="center">Bring your own cloud, for everyone.</h3>
@@ -8,6 +16,8 @@
 
 <p align="center">
 <a href="https://www.nuon.co">Website</a> 💻
+|
+<a href="https://www.loom.com/share/aec62b468f9747c59ed5c30c79d473c4">Demo</a> 📺
 |
 <a href="https://github.com/nuonco/quickstart">Quickstart</a> 🏎
 |
