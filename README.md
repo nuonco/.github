@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://www.nuon.co">
-    <img src="https://raw.githubusercontent.com/nuonco/public/master/nuon.svg" width="318px" alt="Nuon logo" />
+    <img src="https://raw.githubusercontent.com/nuonco/nuonco/main/images/nuon_white.svg" width="318px" alt="Nuon logo" />
   </a>
 </p>
 <h3 align="center">Bring your own cloud, for everyone.</h3>
