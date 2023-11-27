@@ -5,7 +5,7 @@
         media="(prefers-color-scheme: dark)"
         srcset="https://raw.githubusercontent.com/nuonco/nuonco/main/images/nuon_white.svg">
       <img alt="nuon-light"
-           src="https://raw.githubusercontent.com/nuonco/nuonco/main/images/nuon_white.svg"
+           src="https://raw.githubusercontent.com/nuonco/nuonco/main/images/nuon_black.svg"
            width="318px"
            alt="Nuon logo" />
     </picture>
