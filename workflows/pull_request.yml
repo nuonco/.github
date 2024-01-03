@@ -1,0 +1,36 @@
+---
+name: Pull Request Checks
+on:
+  workflow_call:
+    inputs:
+      event_name:
+        required: true
+        type: string
+permissions:
+  contents: read
+  pull-requests: write
+  statuses: write
+  actions: read
+jobs:
+  check-pr:
+    name: Check PR
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: PR Checks
+        uses: nuonco/.github/actions/pr-checks@main
+  update_status:
+    name: Update Status
+    if: github.event_name == 'pull_request' && always()
+    needs:
+      - check-pr
+    runs-on: ubuntu-latest
+    steps:
+      - uses: martialonline/workflow-status@v3
+        id: check
+      - name: Update status
+        uses: ouzi-dev/commit-status-updater@v2.0.1
+        with:
+          name: pull_request ✅
+          status: success
