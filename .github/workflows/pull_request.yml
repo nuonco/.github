@@ -18,7 +18,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: Run PR checks
-        uses: nuonco/sandboxes/actions/pr-checks@main
+        uses: ./.github/actions/pr-checks@main
   update_status:
     name: Update PR status
     if: github.event_name == 'pull_request' && always()
