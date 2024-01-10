@@ -29,6 +29,5 @@ jobs:
           git push -u origin nuonbot/generate-from-api-$(cat version.txt)
       - name: Open PR
         run: |
-          gh pr create --title "ci: generate from api $(cat version.txt)" --body "ci: generate from api $(cat version.txt)"
-          gh pr merge --auto --delete-branch --squash nuonbot/api-version-$(cat version.txt)
+          gh pr create --title "ci: generate from api $(cat version.txt)" --body "ci: generate from api $(cat version.txt)" --label "auto-merge"
 
