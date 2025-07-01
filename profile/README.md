@@ -17,9 +17,9 @@
 <p align="center">
 <a href="https://www.nuon.co">Website</a> 💻
 |
-<a href="https://www.loom.com/share/aec62b468f9747c59ed5c30c79d473c4">Demo</a> 📺
+<a href="https://www.youtube.com/watch?v=ajYyrTTYmpc&t">Demo</a> 📺
 |
-<a href="https://github.com/nuonco/quickstart">Quickstart</a> 🏎
+<a href="https://docs.nuon.co/get-started/quickstart">Quickstart</a> 🏎
 |
 <a href="https://app.nuon.co">Signup</a> 🚀
 |
@@ -29,5 +29,5 @@
 |
 <a href="https://join.slack.com/t/nuoncommunity/shared_invite/zt-1q323vw9z-C8ztRP~HfWjZx6AXi50VRA">Slack</a> 💬
 |
-<a href="mailto:hello@nuon.co">Contact us</a> 🎙
+<a href="mailto:team@nuon.co">Contact us</a> 🎙
 </p>
