@@ -25,7 +25,7 @@
 |
 <a href="https://docs.nuon.co">Product docs</a> 📗
 |
-<a href="https://ctl.prod.nuon.co/docs/index.html">API docs</a> 📘
+<a href="https://docs.nuon.co/nuon-api">API docs</a> 📘
 |
 <a href="https://join.slack.com/t/nuoncommunity/shared_invite/zt-1q323vw9z-C8ztRP~HfWjZx6AXi50VRA">Slack</a> 💬
 |
