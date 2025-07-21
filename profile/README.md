@@ -29,5 +29,5 @@
 |
 <a href="https://join.slack.com/t/nuoncommunity/shared_invite/zt-1q323vw9z-C8ztRP~HfWjZx6AXi50VRA">Slack</a> 💬
 |
-<a href="mailto:team@nuon.co">Contact us</a> 🎙
+<a href="https://nuon.co/contact-us">Contact us</a> 🎙
 </p>
