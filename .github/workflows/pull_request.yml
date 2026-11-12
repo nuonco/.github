@@ -16,7 +16,7 @@ jobs:
     name: Run PR checks
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v3.7.0
       - name: Run PR checks
         uses: nuonco/.github/.github/actions/pr-checks@main
   update_status:

@@ -27,7 +27,7 @@ jobs:
     steps:
       - name: Determine next version
         id: semver
-        uses: ietf-tools/semver-action@v1
+        uses: ietf-tools/semver-action@v1.12.0
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           branch: main
@@ -39,7 +39,7 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           custom_tag: ${{ steps.semver.outputs.nextStrict }}
       - name: Create release
-        uses: actions/create-release@v1
+        uses: actions/create-release@v1.1.4
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
